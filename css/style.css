@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-family: verdana, serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+/*For isolated boxes of content.*/
+.box{
+    padding: 8px;
+    justify-content: center;
+    width: fit-content;
+}
