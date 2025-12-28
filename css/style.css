@@ -26,13 +26,3 @@ header{
 a{
    color: darkblue;
 }
-iframe{
-    @media screen and (orientation: landscape) {
-        width: 98vw;
-        height: 98vh;
-    }
-    @media screen and (orientation: portrait) {
-        width: 98vw;
-        height: 65vw;
-    }
-}
